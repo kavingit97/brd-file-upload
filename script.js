@@ -16,7 +16,7 @@ document.getElementById("uploadForm").addEventListener("submit", async function(
 
     try {
         // Placeholder for the backend API URL (you'll replace it later with your Node.js backend)
-        const response = await fetch("https://your-backend-api.com/upload", {
+        const response = await fetch("http://localhost:3000/upload", {
             method: "POST",
             body: formData,
         });
